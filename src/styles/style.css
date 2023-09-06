@@ -2,4 +2,40 @@
 
 body {
     font-family: 'Lato', sans-serif !important; 
+    background-image: url('../../public/images/MainBackground.avif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    font-weight: 300;
+    color: #F8DDEF;
+}
+
+.gradientBorder {
+    width: 150px;
+    background-image: linear-gradient(115deg, #8C16C5, #8D1C67, #D733A0);
+}
+
+.gradientBorder:hover {
+    animation: play 1.6s ease-in infinite;
+}
+
+@keyframes play {
+    0% {
+        background-position: 0px;
+    }
+    20% {
+        background-position: -110px;
+    }
+    35% {
+        background-position: -180px;
+    }
+    50% {
+        background-position: -210px;
+    }
+    80% {
+        background-position: -350px;
+    }
+    100% {
+        background-position: -390px;
+    }
 }

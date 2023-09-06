@@ -9,6 +9,9 @@ module.exports = {
 		  'black': '#1E1E1E',
 		  'purple-dark': '#8D1C67',
 		},
+		dropShadow: {
+			'5xl': '0 2px 4px rgba(248,221,239,0.4)',
+		},
 		extend: {},
 	},
 	plugins: [],
