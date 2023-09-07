@@ -14,7 +14,7 @@ import '../styles/style.css';
 	</head>
 	<body class="bg-indigo-500">  
 		<Navbar client:load/>
-		<div class="flex">
+		<div id="Banner" class="flex">
 			<div class="w-full min-[800px]:w-8/12 min-[1100px]:w-7/12 min-[1400px]:w-7/12 min-[2000px]:w-8/12 min-[1000px]:flex-none float-left self-center">
 				<h1 class="text-2xl min-[450px]:text-3xl min-[530px]:text-4xl min-md:text-5xl min-[800px]:text-4xl min-[1000px]:text-5xl leading-snug min-[1000px]:leading-normal max-[1100px]:mt-10 min-[1400px]:text-6xl min-[1600px]:text-7xl min-[2000px]:text-8xl min-[2000px]:mt-20 min-[2000px]:leading-normal font-bold mx-auto w-max relative z-20 min-[1400px]:leading-snug">
 					<span class="image-container absolute top-[-55px] left-[-60px]" style={{zIndex: '-10'}}>
@@ -40,6 +40,26 @@ import '../styles/style.css';
 			</div>
 			<div class="max-[799px]:hidden min-[800px]:w-4/12 min-[1100px]:w-5/12 min-[1400px]:5/12 min-[2000px]:w-4/12 min-[1000px]:flex-none float-left">
 				<img class="mx-auto min-[2000px]:mt-20" src="/images/BannerHeadhunter.png" alt="Clash of Clans headhunter with the Divide by Zero gradient text">
+			</div>
+		</div>
+		<div id="Introduction" class="mt-10">
+			<div class="flex justify-center w-full items-center">
+				<img src="/icons/Book.png" alt="Purple Book Icon" class="w-12 h-auto mr-4" />
+				<h1 class="max-md:text-3xl text-4xl font-bold">Introduction.</h1>
+			</div>
+			<div class="min-[1000px]:flex justify-center mt-5">
+				<div class="w-full min-[1000px]:w-6/12 content-center flex flex-wrap">
+					<span class="mx-auto max-md:w-10/12 w-8/12 grid max-md:text-base text-lg">
+						<p class="pb-5 border-b-2 border-pink">With a variety of clans we can safely say that we`re the largest alliance in existence, Within 2.5 years we`ve forged the perfect recipe for our members to enjoy Clash of Clans beyond the game itself.</p>
+						<p class="mt-5">Playing with a group of friends and having special events every month make the game even more fun. Lots of people have already enjoyed these benefits. Could you be the next one?</p>
+						<a href="https://discord.gg/dbz-alliance" class="text-xl mx-auto mt-5 font-light overflow-hidden text-center relative block no-underline rounded-md gradientBorder">
+							<span class='text-xl py-2 bg-black rounded m-1 block hover:text-pink'>Join Now</span>
+						</a>
+					</span>
+				</div>
+				<div class="max-md:w-8/12 w-10/12 mx-auto max-[1000px]:mt-5 min-[1000px]:w-6/12">
+					<img class="mx-auto" src="/images/IntroductionImage.png" alt="A laptop, headphones and a cup purple for gaming">
+				</div>
 			</div>
 		</div>
 	</body>

@@ -6,6 +6,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    height: 100vh;
+    margin: 0;
     font-weight: 300;
     color: #F8DDEF;
 }
