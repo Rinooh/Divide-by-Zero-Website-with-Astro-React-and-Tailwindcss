@@ -49,7 +49,6 @@ class ClashOfClansData extends Component {
               <h2>Clan Name: {clanData[tag].name}</h2>
               <p>Description: {clanData[tag].description}</p>
               <p>Clan Level: {clanData[tag].clanLevel}</p>
-              <p>Clan Type: {clanData[tag].prefix}</p>
               <img src={clanData[tag].badgeUrls.small} alt={clanData[tag]} />
               {/* Add more data points as needed */}
             </li>
