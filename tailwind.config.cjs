@@ -12,7 +12,11 @@ module.exports = {
 		dropShadow: {
 			'5xl': '0 2px 4px rgba(248,221,239,0.4)',
 		},
-		extend: {},
+		extend: {
+			screens: {
+				'md': '768px',
+			},
+		},
 	},
 	plugins: [],
 }

@@ -4,10 +4,12 @@ body {
     font-family: 'Lato', sans-serif !important; 
     background-image: url('/images/MainBackground.avif');
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: top;
     background-size: cover;
     height: 100vh;
     margin: 0;
+    padding: 0;
     font-weight: 300;
     color: #F8DDEF;
 }
