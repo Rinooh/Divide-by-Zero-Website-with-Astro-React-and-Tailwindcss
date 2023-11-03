@@ -44,7 +44,7 @@ const Navbar = () => {
                     <a href="#FAQ" className="text-xl leading-6  hover:text-pink">
                         FAQ
                     </a>
-                    <a href="https://discord.gg/dbz-alliance" className="text-xl leading-6  font-light overflow-hidden text-center relative block no-underline rounded-md mx-auto gradientBorder">
+                    <a href="https://discord.gg/dbz-alliance" className="text-xl leading-6 animate-bounce font-light overflow-hidden text-center relative block no-underline rounded-md mx-auto gradientBorder">
                         <span className='text-xl py-2 bg-black rounded m-1 block hover:text-pink'>Join Now</span>
                     </a>
                 </Popover.Group>

@@ -9,9 +9,8 @@ function OurClans() {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
 
   useEffect(() => {
-    axios.get('http://localhost:3002/clans')
+    axios.get('https://www.codecials.cloud:5000/clans')
       .then(response => {
-        // Split the clans array into two separate arrays, one for each row
         const middleIndex = Math.floor(response.data.length / 2);
         const firstRow = response.data.slice(0, middleIndex);
         const secondRow = response.data.slice(middleIndex);
@@ -46,12 +45,21 @@ function OurClans() {
           arrows={false}
           infinite={true}
           speed={1000}
-          slidesToShow={5}
+          slidesToShow={6}
           slidesToScroll={1}
           autoplay={true}
           autoplaySpeed={1600}
           pauseOnHover={true}
           responsive={[
+            {
+              breakpoint: 1600,
+              settings: {
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+              }
+            },
             {
               breakpoint: 1240,
               settings: {
@@ -112,13 +120,22 @@ function OurClans() {
           arrows={false}
           infinite={true}
           speed={1000}
-          slidesToShow={5}
+          slidesToShow={6}
           slidesToScroll={1}
           autoplay={true}
           autoplaySpeed={1600}
           pauseOnHover={true}
           rtl={true}
           responsive={[
+            {
+              breakpoint: 1600,
+              settings: {
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+              }
+            },
             {
               breakpoint: 1240,
               settings: {

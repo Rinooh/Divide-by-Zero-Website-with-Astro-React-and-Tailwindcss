@@ -17,7 +17,7 @@ const OurDivisions = () => {
                     <>
                         <Popover.Button className="mx-auto block">
                         <button
-                            className="text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
+                            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
                         >
                             <span className="text-xl border-2 border-[#4D4D4D] py-1.5 bg-black rounded m-1 block hover:text-pink">
                             Read More
@@ -54,7 +54,7 @@ const OurDivisions = () => {
                     <>
                         <Popover.Button className="mx-auto block">
                         <button
-                            className="text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
+                            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
                         >
                             <span className="text-xl border-2 border-[#4D4D4D] py-1.5 bg-black rounded m-1 block hover:text-pink">
                             Read More
@@ -87,7 +87,7 @@ const OurDivisions = () => {
                     <>
                         <Popover.Button className="mx-auto block">
                         <button
-                            className="text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
+                            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
                         >
                             <span className="text-xl border-2 border-[#4D4D4D] py-1.5 bg-black rounded m-1 block hover:text-pink">
                             Read More
