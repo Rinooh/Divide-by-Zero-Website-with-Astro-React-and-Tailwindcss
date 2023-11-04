@@ -18,6 +18,7 @@ const Navbar = () => {
                 <div className="flex lg:hidden">
                     <button
                         type="button"
+                        name="Menu Open Button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 "
                         onClick={() => setMobileMenuOpen(true)}
                     >
@@ -58,10 +59,13 @@ const Navbar = () => {
                         className="w-auto"
                         src="../../public/images/DBZMini.png"
                         alt="Divide by Zero Mini Logo"
+                        width="40"
+                        height="39"
                     />
                     </a>
                     <button
                     type="button"
+                    name="Menu Close Button"
                     className="-m-2.5 rounded-md p-2.5 "
                     onClick={() => setMobileMenuOpen(false)}
                     >

@@ -5,18 +5,20 @@ const OurDivisions = () => {
   return (
     <div id="OurDivisions" className="lg:mt-20 mt-4">
         <div className="flex justify-start items-center ml-[8.3%]">
-            <img src="/icons/Building.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
+            <img width="40" height="40" src="/icons/Building.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
             <h1 className="max-md:text-3xl text-4xl font-bold drop-shadow-5xl">Our Divisions.</h1>
         </div>
         <div className="max-md:block flex mt-5 w-10/12 mx-auto">
             <div className="max-md:w-full w-4/12 rounded-l-[100px]">
-                <img className="mx-auto mt-5" src="/images/DBZAllianceLogo.png" alt="Divide by Zero Alliance Logo" />
+                <img width="250" height="242" className="mx-auto mt-5" src="/images/DBZAllianceLogo.png" alt="Divide by Zero Alliance Logo" />
                 <h1 className="max-md:text-3xl text-3xl text-center font-bold drop-shadow-5xl">Alliance</h1>
                 <Popover>
                     {({ open }) => (
                     <>
-                        <Popover.Button className="mx-auto block">
+                        <Popover.Button title="Read more about the alliance" className="mx-auto block">
                         <button
+                            name="Read more about the alliance"
+                            type='button'
                             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
                         >
                             <span className="text-xl border-2 border-[#4D4D4D] py-1.5 bg-black rounded m-1 block hover:text-pink">
@@ -47,13 +49,15 @@ const OurDivisions = () => {
                 </Popover>
             </div>
             <div className="max-md:w-full w-4/12">
-                <img className="mx-auto mt-5" src="/images/DBZGamingLogo.png" alt="Divide by Zero Gaming Logo" />
+                <img width="250" height="242" className="mx-auto mt-5" src="/images/DBZGamingLogo.png" alt="Divide by Zero Gaming Logo" />
                 <h1 className="max-md:text-3xl text-3xl text-center font-bold drop-shadow-5xl">Gaming</h1>
                 <Popover>
                     {({ open }) => (
                     <>
-                        <Popover.Button className="mx-auto block">
+                        <Popover.Button title="Read more about the gaming server" className="mx-auto block">
                         <button
+                            name="Read more about the gaming server"
+                            type='button'
                             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
                         >
                             <span className="text-xl border-2 border-[#4D4D4D] py-1.5 bg-black rounded m-1 block hover:text-pink">
@@ -80,13 +84,15 @@ const OurDivisions = () => {
                 </Popover>
             </div>
             <div className="max-md:w-full w-4/12 rounded-r-[100px]">
-                <img className="mx-auto mt-5" src="/images/DBZEsportsLogo.png" alt="Divide by Zero Esports Logo" />
+                <img width="250" height="242" className="mx-auto mt-5" src="/images/DBZEsportsLogo.png" alt="Divide by Zero Esports Logo" />
                 <h1 className="max-md:text-3xl text-3xl text-center font-bold drop-shadow-5xl">Esports</h1>
                 <Popover>
                     {({ open }) => (
                     <>
-                        <Popover.Button className="mx-auto block">
+                        <Popover.Button title="Read more about the esports server" className="mx-auto block">
                         <button
+                            type='button'
+                            name="Read more about the esports server"
                             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 text-xl mx-auto my-5 font-light overflow-hidden text-center relative block no-underline rounded-md blackBorder"
                         >
                             <span className="text-xl border-2 border-[#4D4D4D] py-1.5 bg-black rounded m-1 block hover:text-pink">

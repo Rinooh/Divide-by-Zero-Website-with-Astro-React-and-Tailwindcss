@@ -30,13 +30,13 @@ function OurClans() {
   };
 
   if (!clans || clans.length !== 2) {
-    return <div>Loading...</div>;
+    return <img className="w-auto" src="/images/DBZMini.png" alt="Divide by Zero Mini Logo" width="40" height="39" />;
   }
 
   return (
     <div id="OurClans" className="lg:mt-20 mt-4">
       <div className='flex justify-start items-center ml-[8.3%]'>
-        <img src="/icons/Village.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
+        <img width="40" height="40" src="/icons/Village.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
         <h1 className="max-md:text-3xl text-4xl font-bold drop-shadow-5xl w-full">Our Clans.</h1>
       </div>
       <div className="slider-container mt-8 w-10/12	 mx-auto">
@@ -106,7 +106,7 @@ function OurClans() {
               onMouseLeave={handleMouseLeave}
             >
               <a href={`https://link.clashofclans.com/en?action=OpenClanProfile&tag=${item.tag}`} rel="noopener noreferrer">
-                <img src={item.badgeUrls.medium} alt={item.description} className={`object-contain h-full w-full rounded-lg ${hoveredIndex === index ? 'opacity-50 blur-sm' : ''}`} />
+                <img width="200" height="200" src={item.badgeUrls.medium} alt={item.description} className={`object-contain h-full w-full rounded-lg ${hoveredIndex === index ? 'opacity-50 blur-sm' : ''}`} />
               </a>
               <div className={`icon-item-text w-3/4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${hoveredIndex === index ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300 text-white text-center z-10`}>
                 <h3 className="text-2xl font-bold mb-2">{item.name}</h3>
@@ -182,7 +182,7 @@ function OurClans() {
               onMouseLeave={handleMouseLeave}
             >
               <a href={`https://link.clashofclans.com/en?action=OpenClanProfile&tag=${item.tag}`} rel="noopener noreferrer">
-                <img src={item.badgeUrls.medium} alt={item.description} className={`object-contain h-full w-full rounded-lg ${hoveredIndex === index + clans[0].length ? 'opacity-50 blur-sm' : ''}`} />
+                <img width="200" height="200" src={item.badgeUrls.medium} alt={item.description} className={`object-contain h-full w-full rounded-lg ${hoveredIndex === index + clans[0].length ? 'opacity-50 blur-sm' : ''}`} />
               </a>
               <div className={`icon-item-text w-3/4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${hoveredIndex === index + clans[0].length ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300 text-white text-center z-10`}>
                 <h3 className="text-2xl font-bold mb-2">{item.name}</h3>
