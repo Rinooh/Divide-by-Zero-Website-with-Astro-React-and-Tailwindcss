@@ -64,3 +64,7 @@ body {
 .icon-item:hover .hovered-text {
     display: block;
 }
+
+.FAQField {
+    background: linear-gradient(95deg, rgba(215, 51, 160, 0.20) 16.11%, rgba(140, 22, 197, 0.20) 70.09%);
+}

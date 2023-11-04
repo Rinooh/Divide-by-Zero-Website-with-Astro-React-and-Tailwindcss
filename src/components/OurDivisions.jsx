@@ -3,12 +3,12 @@ import { Popover } from '@headlessui/react';
 
 const OurDivisions = () => {
   return (
-    <div id="OurDivisions" className="mt-20">
+    <div id="OurDivisions" className="lg:mt-20 mt-4">
         <div className="flex justify-start items-center ml-[8.3%]">
             <img src="/icons/Building.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
             <h1 className="max-md:text-3xl text-4xl font-bold drop-shadow-5xl">Our Divisions.</h1>
         </div>
-        <div className="max-md:block flex mt-5">
+        <div className="max-md:block flex mt-5 w-10/12 mx-auto">
             <div className="max-md:w-full w-4/12 rounded-l-[100px]">
                 <img className="mx-auto mt-5" src="/images/DBZAllianceLogo.png" alt="Divide by Zero Alliance Logo" />
                 <h1 className="max-md:text-3xl text-3xl text-center font-bold drop-shadow-5xl">Alliance</h1>

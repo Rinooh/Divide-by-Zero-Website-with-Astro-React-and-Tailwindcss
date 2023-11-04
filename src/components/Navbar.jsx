@@ -6,9 +6,8 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <>
       <header>
-            <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <nav className="mx-auto flex xl:w-10/12 md:w-full items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex">
                 <a href="/" className="-m-1.5 p-1.5 text-3xl italic font-bold">
                     <LinearGradient className='drop-shadow-5xl' gradient={['to left', '#D733A0 ,#8C16C5']}>
@@ -51,8 +50,8 @@ const Navbar = () => {
                 </div>
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div className="fixed inset-0" />
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div className="flex items-center justify-between">
                     <a href="/" className="-m-1.5 p-1.5">
                     <img
@@ -115,8 +114,7 @@ const Navbar = () => {
                 </Dialog.Panel>
             </Dialog>
         </header>
-    </>
-  )
+  );
 }
 
 export default Navbar
