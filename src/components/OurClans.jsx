@@ -36,7 +36,7 @@ function OurClans() {
   return (
     <div id="OurClans" className="lg:mt-20 mt-4">
       <div className='flex justify-start items-center ml-[8.3%]'>
-        <img width="40" height="40" src="/icons/Village.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
+        <img width="40" height="40" src="/images/icons/Village.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
         <h1 className="max-md:text-3xl text-4xl font-bold w-full">Our Clans.</h1>
       </div>
       <div className="slider-container mt-8 w-10/12	 mx-auto">
