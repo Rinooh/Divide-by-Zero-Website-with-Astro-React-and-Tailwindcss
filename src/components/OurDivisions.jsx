@@ -6,7 +6,7 @@ const OurDivisions = () => {
     <div id="OurDivisions" className="lg:mt-20 mt-4">
         <div className="flex justify-start items-center ml-[8.3%]">
             <img width="40" height="40" src="/icons/Building.png" alt="Purple Building Icon" className="w-12 h-auto mr-4" />
-            <h1 className="max-md:text-3xl text-4xl font-bold drop-shadow-5xl">Our Divisions.</h1>
+            <h1 className="max-md:text-3xl text-4xl font-bold">Our Divisions.</h1>
         </div>
         <div className="max-md:block flex mt-5 w-10/12 mx-auto">
             <div className="max-md:w-full w-4/12 rounded-l-[100px]">
