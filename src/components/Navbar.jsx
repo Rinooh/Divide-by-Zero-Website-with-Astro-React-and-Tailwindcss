@@ -54,7 +54,7 @@ const Navbar = () => {
                 <div className="fixed inset-0" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div className="flex items-center justify-between">
-                    <a href="/" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
                     <img
                         className="w-auto"
                         src="../../public/images/DBZMini.png"
@@ -79,30 +79,35 @@ const Navbar = () => {
                     <div className="space-y-2 py-6">
                         <a
                         href="#Introduction"
+                        onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:text-pink"
                         >
                         Introduction
                         </a>
                         <a
                         href="#OurDivisions"
+                        onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:text-pink"
                         >
                         Our Divisions
                         </a>
                         <a
                         href="#OurClans"
+                        onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:text-pink"
                         >
                         Our Clans
                         </a>
                         <a
                         href="#Partners"
+                        onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:text-pink"
                         >
                         Partners
                         </a>
                         <a
                         href="#FAQ"
+                        onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:text-pink"
                         >
                         FAQ
